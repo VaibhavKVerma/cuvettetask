@@ -4,9 +4,9 @@ import { Context } from "../Context";
 const Overlay = () => {
   const [data, setData] = useContext(Context);
   const [fakedata, setFakedata] = useState({
-    rank: "0",
-    percentile: "0",
-    score: "0",
+    rank: "12890",
+    percentile: "37",
+    score: "7",
   });
 
   const update = (e) => {
