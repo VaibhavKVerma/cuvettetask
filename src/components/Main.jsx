@@ -60,7 +60,7 @@ const Main = () => {
                     />
                   </div>
                   <div className="margin_left_fifteen">
-                    <h3>{data.rank}</h3>
+                    <h3>{new Intl.NumberFormat().format(Number(data.rank))}</h3>
                     <h6>YOUR RANK</h6>
                   </div>
                 </div>

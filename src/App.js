@@ -14,9 +14,9 @@ import { Context } from "./Context.js";
 
 function App() {
   const [data, setData] = useState({
-    rank: "0",
-    percentile: "0",
-    score: "0",
+    rank: "12890",
+    percentile: "37",
+    score: "7",
     overlay: 0,
   });
 
