@@ -21,6 +21,7 @@ const Overlay = () => {
 
   const handleCancel = () => {
     setData({ ...data, overlay: 0 });
+    setFakedata({ ...data });
   };
   return (
     <>
